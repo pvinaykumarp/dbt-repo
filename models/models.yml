@@ -1,7 +1,7 @@
 models:
   - name: ref_listing
     config:
-      materialized: ephemeral 
+      materialized: table 
   - name: src_listings
     config:
       materialized: view
