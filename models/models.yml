@@ -1,0 +1,7 @@
+models:
+  - name: ref_listing
+    config:
+      materialized: table 
+  - name: src_listings
+    config:
+      materialized: view
